@@ -4,3 +4,7 @@ numpy
 scikit-learn
 matplotlib
 seaborn
+locale
+PIL
+image
+pickle

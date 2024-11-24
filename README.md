@@ -6,6 +6,9 @@ Topic 11: House price prediction analyzer using advanced regression techniques a
 
 
 Anas masroor 023
+
 Muhammad talha khan 010
+
 Haisum ahsan 001
+
 Muhammad Noman Baig 017

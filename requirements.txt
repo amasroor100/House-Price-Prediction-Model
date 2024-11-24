@@ -6,5 +6,4 @@ matplotlib
 seaborn
 locale
 PIL
-image
 pickle

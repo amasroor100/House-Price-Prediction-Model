@@ -52,7 +52,7 @@ st.image(image, width=240)
 
 # Streamlit inputs
 st.header("Enter Property Details:")
-location = st.selectbox("Location", sorted(df1['location'].unique()))  # Dropdown menu for locations
+location = st.selectbox("Location", sorted(df['location'].unique()))  # Dropdown menu for locations
 sqft = st.number_input("Property Size (sqft)", min_value=100, step=10, value=1000)
 bedrooms = st.number_input("Number of Bedrooms", min_value=1, step=1, value=2)
 baths = st.number_input("Number of Bathrooms", min_value=1, step=1, value=1)

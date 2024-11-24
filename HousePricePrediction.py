@@ -5,8 +5,13 @@ import pickle
 from sklearn.tree import DecisionTreeRegressor
 from PIL import Image
 import locale
+import os
 
-locale.setlocale(locale.LC_ALL, 'en_PK.UTF-8')
+# Set a default locale
+try:
+    locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')  # Use 'en_US.UTF-8' or a supported locale
+except locale.Error:
+    locale.setlocale(locale.LC_ALL, 'C')  # Fallback if 'en_US.UTF-8' is unsupported
 
 # Streamlit app title
 st.title("House Price Prediction Model with Inflation Adjustment")

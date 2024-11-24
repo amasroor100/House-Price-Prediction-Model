@@ -5,4 +5,3 @@ scikit-learn
 matplotlib
 seaborn
 Pillow
-pickle
